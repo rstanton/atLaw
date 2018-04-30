@@ -8,46 +8,112 @@
     jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
     jcr:uuid: 12eaa5d6-87a8-426f-80fe-bee0edc2db80
     hippo:name: Global
-    /global:
+    /global[1]:
       jcr:primaryType: resourcebundle:resourcebundle
       jcr:mixinTypes: ['mix:referenceable']
       jcr:uuid: d10b722b-5150-4d4c-b663-42dd4b336096
-      hippo:availability: [live, preview]
+      hippo:availability: [live]
       hippostd:state: published
       hippostdpubwf:createdBy: admin
       hippostdpubwf:creationDate: 2014-08-21T22:10:13.443+02:00
-      hippostdpubwf:lastModificationDate: 2014-08-21T22:10:52.812+02:00
+      hippostdpubwf:lastModificationDate: 2018-04-30T21:09:12.314+01:00
       hippostdpubwf:lastModifiedBy: admin
-      hippostdpubwf:publicationDate: 2014-08-21T22:10:54.657+02:00
+      hippostdpubwf:publicationDate: 2018-04-30T21:09:14.832+01:00
       resourcebundle:descriptions: [Text shown in the global page footer.]
       resourcebundle:id: essentials.global
       resourcebundle:keys: [footer.text]
-      resourcebundle:messages: [©2018]
+      resourcebundle:messages: [©2018 Stanton & Co]
+    /global[2]:
+      jcr:primaryType: resourcebundle:resourcebundle
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: a1251dd3-d239-4864-8b1e-f4233ad9ed39
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-08-21T22:10:13.443+02:00
+      hippostdpubwf:lastModificationDate: 2018-04-30T21:09:12.314+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      resourcebundle:descriptions: [Text shown in the global page footer.]
+      resourcebundle:id: essentials.global
+      resourcebundle:keys: [footer.text]
+      resourcebundle:messages: [©2018 Stanton & Co]
+    /global[3]:
+      jcr:primaryType: resourcebundle:resourcebundle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 27787c14-c2b1-473d-ab02-6bf2c614a2f0
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-08-21T22:10:13.443+02:00
+      hippostdpubwf:lastModificationDate: 2018-04-30T21:08:55.780+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      resourcebundle:descriptions: [Text shown in the global page footer.]
+      resourcebundle:id: essentials.global
+      resourcebundle:keys: [footer.text]
+      resourcebundle:messages: [©2018 Stanton & Co]
   /homepage:
     jcr:primaryType: hippo:handle
     jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
     jcr:uuid: 24a11b9d-116f-4949-9846-7e80aceb3d5c
     hippo:name: Homepage
-    /homepage:
+    /homepage[1]:
       jcr:primaryType: resourcebundle:resourcebundle
       jcr:mixinTypes: ['mix:referenceable']
       jcr:uuid: 4a30a4e3-3678-4e24-9d11-b937813fc877
-      hippo:availability: [live, preview]
+      hippo:availability: [live]
       hippostd:state: published
       hippostdpubwf:createdBy: admin
       hippostdpubwf:creationDate: 2014-08-21T17:08:08.703+02:00
-      hippostdpubwf:lastModificationDate: 2014-08-21T17:11:53.242+02:00
+      hippostdpubwf:lastModificationDate: 2018-04-30T20:59:17.339+01:00
       hippostdpubwf:lastModifiedBy: admin
-      hippostdpubwf:publicationDate: 2014-08-21T17:11:55.239+02:00
+      hippostdpubwf:publicationDate: 2018-04-30T20:59:20.346+01:00
       resourcebundle:descriptions: [Title displayed on homepage., Text displayed on
           homepage.]
       resourcebundle:id: essentials.homepage
       resourcebundle:keys: [homepage.title, homepage.text]
-      resourcebundle:messages: [Home Page, 'Every website comes with its own styling
-          requirements. Hippo''s setup application can therefore not address site
-          styling. Instead, the generated pages use minimal styling to render the
-          content. It is the task of the Hippo developer to adjust the front-end to
-          the site''s needs.']
+      resourcebundle:messages: [Family Law 101, 'Every website comes with its own
+          styling requirements. Hippo''s setup application can therefore not address
+          site styling. Instead, the generated pages use minimal styling to render
+          the content. It is the task of the Hippo developer to adjust the front-end
+          to the site''s needs.']
+    /homepage[2]:
+      jcr:primaryType: resourcebundle:resourcebundle
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: cbea488b-91f3-4c37-b1ad-250a2ef43f84
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-08-21T17:08:08.703+02:00
+      hippostdpubwf:lastModificationDate: 2018-04-30T20:59:17.339+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      resourcebundle:descriptions: [Title displayed on homepage., Text displayed on
+          homepage.]
+      resourcebundle:id: essentials.homepage
+      resourcebundle:keys: [homepage.title, homepage.text]
+      resourcebundle:messages: [Family Law 101, 'Every website comes with its own
+          styling requirements. Hippo''s setup application can therefore not address
+          site styling. Instead, the generated pages use minimal styling to render
+          the content. It is the task of the Hippo developer to adjust the front-end
+          to the site''s needs.']
+    /homepage[3]:
+      jcr:primaryType: resourcebundle:resourcebundle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 11c59a1c-df05-430d-b911-e02de22b302c
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-08-21T17:08:08.703+02:00
+      hippostdpubwf:lastModificationDate: 2018-04-30T20:59:00.133+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      resourcebundle:descriptions: [Title displayed on homepage., Text displayed on
+          homepage.]
+      resourcebundle:id: essentials.homepage
+      resourcebundle:keys: [homepage.title, homepage.text]
+      resourcebundle:messages: [Family Law 101, 'Every website comes with its own
+          styling requirements. Hippo''s setup application can therefore not address
+          site styling. Instead, the generated pages use minimal styling to render
+          the content. It is the task of the Hippo developer to adjust the front-end
+          to the site''s needs.']
   /pagenotfound:
     jcr:primaryType: hippo:handle
     jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
