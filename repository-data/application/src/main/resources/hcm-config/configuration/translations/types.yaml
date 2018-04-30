@@ -1,0 +1,226 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:translations/hippo:types/atLaw:bannerdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        atLaw:content: Content
+        atLaw:image: Image
+        atLaw:link: Link
+        atLaw:title: Title
+        jcr:name: Banner
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        atLaw:content: Inhoud
+        atLaw:image: Afbeelding
+        atLaw:link: Link
+        atLaw:title: Titel
+        jcr:name: Banner
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        atLaw:content: Contenu
+        atLaw:image: Image
+        atLaw:link: Lien
+        atLaw:title: Titre
+        jcr:name: Bannière
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        atLaw:content: Inhalt
+        atLaw:image: Abbildung
+        atLaw:link: Link
+        atLaw:title: Titel
+        jcr:name: Banner
+    /hippo:configuration/hippo:translations/hippo:types/atLaw:newsdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        atLaw:author: Author
+        atLaw:content: Content
+        atLaw:date: Date
+        atLaw:image: Image
+        atLaw:introduction: Introduction
+        atLaw:location: Location
+        atLaw:source: Source
+        atLaw:title: Title
+        jcr:name: News Item
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        atLaw:author: Auteur
+        atLaw:content: Inhoud
+        atLaw:date: Datum
+        atLaw:image: Afbeelding
+        atLaw:introduction: Introductie
+        atLaw:location: Locatie
+        atLaw:source: Bron
+        atLaw:title: Titel
+        jcr:name: Nieuwsbericht
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        atLaw:author: Verfasser
+        atLaw:content: Inhalt
+        atLaw:date: Datum
+        atLaw:image: Abbildung
+        atLaw:introduction: Einführung
+        atLaw:location: Standort
+        atLaw:source: Quelle
+        atLaw:title: Titel
+        jcr:name: News
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        atLaw:author: Auteur
+        atLaw:content: Contenu
+        atLaw:date: Date
+        atLaw:image: Image
+        atLaw:introduction: Introduction
+        atLaw:location: Lieu
+        atLaw:source: Source
+        atLaw:title: Titre
+        jcr:name: Message d'info
+    /hippo:configuration/hippo:translations/hippo:types/atLaw:contentdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        atLaw:content: Content
+        atLaw:introduction: Introduction
+        atLaw:publicationdate: Publication date
+        atLaw:title: Title
+        jcr:name: Simple Document
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        atLaw:content: Inhoud
+        atLaw:introduction: Introductie
+        atLaw:publicationdate: Publicatiedatum
+        atLaw:title: Titel
+        jcr:name: Eenvoudig Document
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        atLaw:content: Contenu
+        atLaw:introduction: Introduction
+        atLaw:publicationdate: Date de publication
+        atLaw:title: Titre
+        jcr:name: Document simple
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        atLaw:content: Inhalt
+        atLaw:introduction: Einführung
+        atLaw:publicationdate: Publikationsdatum
+        atLaw:title: Titel
+        jcr:name: Einfaches Dokument
+    /hippo:configuration/hippo:translations/hippo:types/atLaw:blogpost:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        atLaw:authors: Author(s)
+        atLaw:authors#hint: Link to author document(s)
+        atLaw:categories: Categories
+        atLaw:content: Content
+        atLaw:introduction: Introduction
+        atLaw:publicationdate: Publication Date
+        atLaw:title: Title
+        jcr:name: Blogpost
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        atLaw:authors: Auteur(s)
+        atLaw:authors#hint: Link naar auteur document(en)
+        atLaw:categories: Categorieën
+        atLaw:content: Inhoud
+        atLaw:introduction: Introductie
+        atLaw:publicationdate: Publicatiedatum
+        atLaw:title: Titel
+        jcr:name: Blogpost
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        atLaw:authors: Auteur(s)
+        atLaw:authors#hint: Lien vers le(s) document(s) de l'auteur
+        atLaw:categories: Catégories
+        atLaw:content: Contenu
+        atLaw:introduction: Introduction
+        atLaw:publicationdate: Date de publication
+        atLaw:title: Titre
+        jcr:name: Post blog
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        atLaw:authors: Verfasser
+        atLaw:authors#hint: Link zu Verfasserdokument(en)
+        atLaw:categories: Kategorien
+        atLaw:content: Inhalt
+        atLaw:introduction: Einführung
+        atLaw:publicationdate: Publikationsdatum
+        atLaw:title: Titel
+        jcr:name: Blog-Post
+    /hippo:configuration/hippo:translations/hippo:types/atLaw:author:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        atLaw:accounts: Accounts
+        atLaw:accounts#hint: External social media accounts
+        atLaw:content: Description
+        atLaw:content#hint: Information about the author
+        atLaw:fullname: Name
+        atLaw:fullname#hint: Full name
+        atLaw:photo: Photo
+        atLaw:photo#hint: Photo of the author
+        atLaw:role: Role
+        jcr:name: Author
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        atLaw:accounts: Accounts
+        atLaw:accounts#hint: Externe social media accounts
+        atLaw:content: Beschrijving
+        atLaw:content#hint: Informatie over de auteur
+        atLaw:fullname: Naam
+        atLaw:fullname#hint: Volledige naam
+        atLaw:photo: Foto
+        atLaw:photo#hint: Foto van de auteur
+        atLaw:role: Rol
+        jcr:name: Auteur
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        atLaw:accounts: Konten
+        atLaw:accounts#hint: Comptes médias sociaux externes
+        atLaw:content: Description
+        atLaw:content#hint: Informations sur l'auteur
+        atLaw:fullname: Nom
+        atLaw:fullname#hint: Nom complet
+        atLaw:photo: Photo
+        atLaw:photo#hint: Photo de l'auteur
+        atLaw:role: Rôle
+        jcr:name: Auteur
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        atLaw:accounts: Comptes
+        atLaw:accounts#hint: Externe Konten soziale Medien
+        atLaw:content: Beschreibung
+        atLaw:content#hint: Informationen über den Verfasser
+        atLaw:fullname: Name
+        atLaw:fullname#hint: Vollständiger Name
+        atLaw:photo: Foto
+        atLaw:photo#hint: Foto des Verfassers
+        atLaw:role: Rolle
+        jcr:name: Verfasser
+    /hippo:configuration/hippo:translations/hippo:types/atLaw:account:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        atLaw:link: Link
+        atLaw:link#hint: External link to the account
+        atLaw:type: Type
+        jcr:name: Account (Compound)
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        atLaw:link: Link
+        atLaw:link#hint: Externe link naar het account
+        atLaw:type: Soort
+        jcr:name: Account (Compound)
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        atLaw:link: Lien
+        atLaw:link#hint: Lien externe vers le compte
+        atLaw:type: Type
+        jcr:name: Compte (Compound)
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        atLaw:link: Link
+        atLaw:link#hint: Externer Link zum Konto
+        atLaw:type: Art
+        jcr:name: Konto (Compound)

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <applicationSubModule>application</applicationSubModule>
+    <cmsModule>cms</cmsModule>
+    <confirmParams>false</confirmParams>
+    <developmentSubModule>development</developmentSubModule>
+    <enterprise>false</enterprise>
+    <extraTemplates>true</extraTemplates>
+    <projectNamespace>atLaw</projectNamespace>
+    <repositoryDataModule>repository-data</repositoryDataModule>
+    <selectedBeansPackage>com.stanton.wcms.beans</selectedBeansPackage>
+    <selectedComponentsPackage>com.stanton.wcms.components</selectedComponentsPackage>
+    <selectedProjectPackage>com.stanton.wcms</selectedProjectPackage>
+    <selectedRestPackage>com.stanton.wcms.rest</selectedRestPackage>
+    <setupDone>true</setupDone>
+    <siteModule>site</siteModule>
+    <templateLanguage>freemarker</templateLanguage>
+    <useSamples>false</useSamples>
+    <webfilesSubModule>webfiles</webfilesSubModule>
+</project>

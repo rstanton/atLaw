@@ -1,0 +1,73 @@
+/content/documents/atLaw/blog:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+  jcr:uuid: d2b55892-85b7-48ce-a364-ec314e4c27d1
+  hippostd:foldertype: [new-blog-folder, new-blogauthor-folder]
+  hippotranslation:id: 5854da8e-d5c8-46b5-9c57-f51d252e5812
+  hippotranslation:locale: en
+  /authors:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+    jcr:uuid: 886c5e1d-44df-45c6-944a-f4d138c34ed0
+    hippostd:foldertype: [new-blogauthor-document, new-blogauthor-folder]
+    hippotranslation:id: 1a6d193e-545e-4551-9cae-1d40034acc6a
+    hippotranslation:locale: en
+  /2018:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+    jcr:uuid: 472a3a6e-2e74-4fe2-9267-fa12f378d826
+    hippostd:foldertype: [new-blog-document, new-blog-folder]
+    hippotranslation:id: e82ce426-b24f-4418-972d-4684a41dceff
+    hippotranslation:locale: en
+    /04:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 416489a1-dbc5-485e-a5e1-6e45d2849897
+      hippostd:foldertype: [new-blog-document, new-blog-folder]
+      hippotranslation:id: bdaf49ea-4ade-42d2-aadf-2963ab91b485
+      hippotranslation:locale: en
+  /account-types:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: e685fd32-aee3-45c9-943f-e761eca8d5e1
+    /account-types:
+      jcr:primaryType: selection:valuelist
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: c0226270-d67d-4506-8c9b-4191784889b0
+      hippo:availability: [live, preview]
+      hippotranslation:id: f0f30d42-4b99-476d-945e-79f69e247e0d
+      hippotranslation:locale: en
+      /selection:listitem[1]:
+        jcr:primaryType: selection:listitem
+        selection:key: github
+        selection:label: GitHub
+      /selection:listitem[2]:
+        jcr:primaryType: selection:listitem
+        selection:key: stackoverflow
+        selection:label: Stack Overflow
+      /selection:listitem[3]:
+        jcr:primaryType: selection:listitem
+        selection:key: twitter
+        selection:label: Twitter
+      /selection:listitem[4]:
+        jcr:primaryType: selection:listitem
+        selection:key: linkedin
+        selection:label: LinkedIn
+  /blog-categories:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 0e0323b4-4982-45b7-8b57-851c43af9fc0
+    /blog-categories:
+      jcr:primaryType: selection:valuelist
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: a82d96b8-97e0-48b2-92d9-c1d77f0aeab4
+      hippotranslation:id: 57429a18-ad5c-4791-a60f-7b96961223b6
+      hippotranslation:locale: en
+      /selection:listitem[1]:
+        jcr:primaryType: selection:listitem
+        selection:key: cms
+        selection:label: CMS
+      /selection:listitem[2]:
+        jcr:primaryType: selection:listitem
+        selection:key: life
+        selection:label: Life

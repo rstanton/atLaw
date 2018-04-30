@@ -1,0 +1,7 @@
+group: 
+  name: atLaw
+  after: hippo-cms
+project: atLaw
+module: 
+  name: atLaw-repository-data-development
+  after: atLaw-repository-data-application

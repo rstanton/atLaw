@@ -1,0 +1,15 @@
+/content/documents/atLaw/blogFacets:
+  jcr:primaryType: hippofacnav:facetnavigation
+  hippo:docbase: d2b55892-85b7-48ce-a364-ec314e4c27d1
+  hippofacnav:facetnodenames: [Authors, Categories, Tags, Date]
+  hippofacnav:facets: ['atLaw:authornames', 'atLaw:categories', 'hippostd:tags', "atLaw:publicationdate$[\n\
+      \                {name:'Last 7 days',resolution:'day', begin:-6, end:1},\n \
+      \               {name:'Last month',resolution:'day', begin:-30, end:1},\n  \
+      \              {name:'Last 3 months',resolution:'day', begin:-91, end:1},\n\
+      \                {name:'Last 6 months',resolution:'day', begin:-182, end:1},\n\
+      \                {name:'Last year',resolution:'day', begin:-365, end:1}\n  \
+      \              ]"]
+  hippofacnav:filters: ['jcr:primaryType = atLaw:blogpost']
+  hippofacnav:limit: 100
+  hippofacnav:sortby: ['atLaw:publicationdate']
+  hippofacnav:sortorder: [descending]
