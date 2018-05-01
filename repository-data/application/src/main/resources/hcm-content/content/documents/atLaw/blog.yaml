@@ -1,4 +1,5 @@
 /content/documents/atLaw/blog:
+  .meta:order-before: banners
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
   jcr:uuid: d2b55892-85b7-48ce-a364-ec314e4c27d1

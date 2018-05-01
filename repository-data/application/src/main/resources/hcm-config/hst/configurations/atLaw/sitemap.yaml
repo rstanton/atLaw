@@ -65,3 +65,11 @@ definitions:
             jcr:primaryType: hst:sitemapitem
             hst:componentconfigurationid: hst:pages/bloglist
             hst:relativecontentpath: ${parent}/${1}
+      /barristers:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/barristers
+        hst:relativecontentpath: barristers
+        /_any_:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/barristers
+          hst:relativecontentpath: ${parent}/${1}

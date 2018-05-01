@@ -1,3 +1,4 @@
 /hst:hst/hst:configurations/atLaw/hst:workspace/hst:sitemenus/main/blog:
+  .meta:order-before: barristers
   jcr:primaryType: hst:sitemenuitem
   hst:referencesitemapitem: blog

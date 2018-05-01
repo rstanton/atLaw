@@ -1,0 +1,90 @@
+/content/documents/atLaw/banners:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 86a6676b-e42f-4627-91ec-f40ad79d52c3
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 6b64dbe7-f885-41da-8c06-ccfc7ea1761d
+  hippotranslation:locale: en
+  /homepage-banner:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: ebe989d0-82f7-4b73-a9f4-37e89416cccb
+    /homepage-banner[1]:
+      jcr:primaryType: atLaw:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 3e7cf811-3276-42b2-9158-a5e19ae277b8
+      atLaw:title: Banner
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-01T18:41:48.966+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-01T18:41:48.966+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 0215a3c5-4201-4791-8bdc-bd3cc003f92b
+      hippotranslation:locale: en
+      /atLaw:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Some Banner Content</p>
+      /atLaw:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /atLaw:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /homepage-banner[2]:
+      jcr:primaryType: atLaw:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 35d91b00-ef06-4b47-81b9-bc4864a5ebf8
+      atLaw:title: Banner
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-01T18:41:48.966+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-01T18:42:04.753+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 0215a3c5-4201-4791-8bdc-bd3cc003f92b
+      hippotranslation:locale: en
+      /atLaw:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Some Banner Content</p>
+      /atLaw:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /atLaw:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /homepage-banner[3]:
+      jcr:primaryType: atLaw:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 7e84e79f-5c81-46a7-b3c7-883fdc2c16f1
+      atLaw:title: Banner
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-01T18:41:48.966+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-01T18:42:04.753+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-05-01T18:42:08.888+01:00
+      hippotranslation:id: 0215a3c5-4201-4791-8bdc-bd3cc003f92b
+      hippotranslation:locale: en
+      /atLaw:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Some Banner Content</p>
+      /atLaw:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /atLaw:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe

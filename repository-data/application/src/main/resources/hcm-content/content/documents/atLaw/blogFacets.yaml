@@ -1,4 +1,5 @@
 /content/documents/atLaw/blogFacets:
+  .meta:order-before: banners
   jcr:primaryType: hippofacnav:facetnavigation
   hippo:docbase: d2b55892-85b7-48ce-a364-ec314e4c27d1
   hippofacnav:facetnodenames: [Authors, Categories, Tags, Date]

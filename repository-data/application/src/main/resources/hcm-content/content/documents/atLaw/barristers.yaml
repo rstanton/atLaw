@@ -1,0 +1,85 @@
+/content/documents/atLaw/barristers:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: c24884c1-890c-413f-b2f5-0a1a49969057
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: dbb53733-70fc-45c6-8d84-eb4a0894b97d
+  hippotranslation:locale: en
+  /rachael-goodall:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 180a8793-e9bd-4155-a283-589b6cd8a8f3
+    hippo:name: Rachael Goodall
+    /rachael-goodall[1]:
+      jcr:primaryType: atLaw:author
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 57fef369-5186-422e-a332-47a39b8d1f41
+      atLaw:fullname: Rachael Goodall
+      atLaw:role: Barrister
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-01T19:27:41.288+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-01T19:27:41.288+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 4dbe1175-670e-4e05-9ea1-6121797460e1
+      hippotranslation:locale: en
+      /atLaw:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Blah Blah</p>
+      /atLaw:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /rachael-goodall[2]:
+      jcr:primaryType: atLaw:author
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 4883ae48-8516-42b7-957e-5502892bb68c
+      atLaw:fullname: Rachael Goodall
+      atLaw:role: Barrister
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-01T19:27:41.288+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-01T19:27:57.946+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 4dbe1175-670e-4e05-9ea1-6121797460e1
+      hippotranslation:locale: en
+      /atLaw:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Blah Blah</p>
+      /atLaw:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /rachael-goodall[3]:
+      jcr:primaryType: atLaw:author
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 05496f9c-0f2b-4e54-8552-b89536dcdbbc
+      atLaw:fullname: Rachael Goodall
+      atLaw:role: Barrister
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-01T19:27:41.288+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-01T19:27:57.946+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-05-01T19:28:01.456+01:00
+      hippotranslation:id: 4dbe1175-670e-4e05-9ea1-6121797460e1
+      hippotranslation:locale: en
+      /atLaw:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Blah Blah</p>
+      /atLaw:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
