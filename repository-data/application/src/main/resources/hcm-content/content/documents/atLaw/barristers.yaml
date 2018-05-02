@@ -14,14 +14,14 @@
       jcr:primaryType: atLaw:author
       jcr:mixinTypes: ['mix:referenceable']
       jcr:uuid: 57fef369-5186-422e-a332-47a39b8d1f41
-      atLaw:fullname: Rachael Goodall
+      atLaw:fullname: Rachael Goodall 2
       atLaw:role: Barrister
       hippo:availability: []
       hippo:related___pathreference: []
       hippostd:state: draft
       hippostdpubwf:createdBy: admin
       hippostdpubwf:creationDate: 2018-05-01T19:27:41.288+01:00
-      hippostdpubwf:lastModificationDate: 2018-05-01T19:27:41.288+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-02T20:33:20.861+01:00
       hippostdpubwf:lastModifiedBy: admin
       hippotranslation:id: 4dbe1175-670e-4e05-9ea1-6121797460e1
       hippotranslation:locale: en
@@ -38,14 +38,14 @@
       jcr:primaryType: atLaw:author
       jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
       jcr:uuid: 4883ae48-8516-42b7-957e-5502892bb68c
-      atLaw:fullname: Rachael Goodall
+      atLaw:fullname: Rachael Goodall 2
       atLaw:role: Barrister
       hippo:availability: [preview]
       hippo:related___pathreference: []
       hippostd:state: unpublished
       hippostdpubwf:createdBy: admin
       hippostdpubwf:creationDate: 2018-05-01T19:27:41.288+01:00
-      hippostdpubwf:lastModificationDate: 2018-05-01T19:27:57.946+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-02T20:33:30.571+01:00
       hippostdpubwf:lastModifiedBy: admin
       hippotranslation:id: 4dbe1175-670e-4e05-9ea1-6121797460e1
       hippotranslation:locale: en
@@ -62,16 +62,16 @@
       jcr:primaryType: atLaw:author
       jcr:mixinTypes: ['mix:referenceable']
       jcr:uuid: 05496f9c-0f2b-4e54-8552-b89536dcdbbc
-      atLaw:fullname: Rachael Goodall
+      atLaw:fullname: Rachael Goodall 2
       atLaw:role: Barrister
       hippo:availability: [live]
       hippo:related___pathreference: []
       hippostd:state: published
       hippostdpubwf:createdBy: admin
       hippostdpubwf:creationDate: 2018-05-01T19:27:41.288+01:00
-      hippostdpubwf:lastModificationDate: 2018-05-01T19:27:57.946+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-02T20:33:30.571+01:00
       hippostdpubwf:lastModifiedBy: admin
-      hippostdpubwf:publicationDate: 2018-05-01T19:28:01.456+01:00
+      hippostdpubwf:publicationDate: 2018-05-02T20:33:34.025+01:00
       hippotranslation:id: 4dbe1175-670e-4e05-9ea1-6121797460e1
       hippotranslation:locale: en
       /atLaw:content:
@@ -83,3 +83,93 @@
         hippo:facets: []
         hippo:modes: []
         hippo:values: []
+  /ross:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: d9914022-e079-4e85-9a5e-2a7280270932
+    hippo:name: Ross
+    /ross[1]:
+      jcr:primaryType: atLaw:author
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: bc9aea4e-d211-4022-a3a7-3c1683d3b5f2
+      atLaw:fullname: Ross Stanton
+      atLaw:role: Lawyer
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-02T21:07:09.888+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-02T21:07:09.888+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 4f6a16eb-6b2c-447c-8536-8f6eecc985e7
+      hippotranslation:locale: en
+      /atLaw:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Ross Rules OK!</p>
+      /atLaw:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /atLaw:accounts:
+        jcr:primaryType: atLaw:account
+        atLaw:link: dwetr
+        atLaw:type: github
+    /ross[2]:
+      jcr:primaryType: atLaw:author
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: b68b99c0-4f8c-4f87-8be8-2868c19af0bf
+      atLaw:fullname: Ross Stanton
+      atLaw:role: Lawyer
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-02T21:07:09.888+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-02T21:07:36.983+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 4f6a16eb-6b2c-447c-8536-8f6eecc985e7
+      hippotranslation:locale: en
+      /atLaw:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Ross Rules OK!</p>
+      /atLaw:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /atLaw:accounts:
+        jcr:primaryType: atLaw:account
+        atLaw:link: dwetr
+        atLaw:type: github
+    /ross[3]:
+      jcr:primaryType: atLaw:author
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: dffeac83-f557-4aa0-82b4-c5e424360758
+      atLaw:fullname: Ross Stanton
+      atLaw:role: Lawyer
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-02T21:07:09.888+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-02T21:07:36.983+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-05-02T21:07:41.655+01:00
+      hippotranslation:id: 4f6a16eb-6b2c-447c-8536-8f6eecc985e7
+      hippotranslation:locale: en
+      /atLaw:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Ross Rules OK!</p>
+      /atLaw:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /atLaw:accounts:
+        jcr:primaryType: atLaw:account
+        atLaw:link: dwetr
+        atLaw:type: github

@@ -67,9 +67,12 @@ definitions:
             hst:relativecontentpath: ${parent}/${1}
       /barristers:
         jcr:primaryType: hst:sitemapitem
-        hst:componentconfigurationid: hst:pages/barristers
+        hst:componentconfigurationid: hst:pages/barristerlist
         hst:relativecontentpath: barristers
         /_any_:
           jcr:primaryType: hst:sitemapitem
-          hst:componentconfigurationid: hst:pages/barristers
+          hst:componentconfigurationid: hst:pages/barristerlist
           hst:relativecontentpath: ${parent}/${1}
+        /_any_.html:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: ''

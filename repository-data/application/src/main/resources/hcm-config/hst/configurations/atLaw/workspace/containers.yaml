@@ -86,3 +86,10 @@ definitions:
           hst:label: Blog Page Main
           hst:lastmodified: 2014-04-15T15:02:10.775+02:00
           hst:xtype: hst.vbox
+      /barristerslist:
+        jcr:primaryType: hst:containercomponentfolder
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hst:xtype: hst.vbox
+          hst:label: Barristers List

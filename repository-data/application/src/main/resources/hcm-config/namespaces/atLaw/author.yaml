@@ -11,7 +11,7 @@ definitions:
         /hipposysedit:nodetype:
           jcr:primaryType: hipposysedit:nodetype
           jcr:mixinTypes: ['hipposysedit:remodel', 'mix:referenceable']
-          jcr:uuid: a08035ab-b509-42f5-986a-562b81f3e5ed
+          jcr:uuid: b0f7f8ce-f44a-46d7-aee5-36bd00f0b956
           hipposysedit:node: true
           hipposysedit:supertype: ['atLaw:basedocument', 'hippostd:relaxed', 'hippotranslation:translated']
           hipposysedit:uri: http://www.onehippo.org/atLaw/nt/1.0
@@ -62,7 +62,7 @@ definitions:
         /hipposysedit:prototype:
           jcr:primaryType: atLaw:author
           jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 5083b73d-3145-430d-a804-3f4855ae3b2f
+          jcr:uuid: 9037adde-20b9-4d10-a22e-98dc4f020132
           atLaw:fullname: ''
           atLaw:role: ''
           hippo:related___pathreference: []
@@ -76,7 +76,7 @@ definitions:
           hippotranslation:locale: document-type-locale
           /atLaw:content:
             jcr:primaryType: hippostd:html
-            hippostd:content: <html><body></body></html>
+            hippostd:content: ''
           /atLaw:image:
             jcr:primaryType: hippogallerypicker:imagelink
             hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
@@ -112,6 +112,8 @@ definitions:
             field: fullname
             plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
             wicket.id: ${cluster.id}.left.item
+            caption: ''
+            hint: ''
             /cluster.options:
               jcr:primaryType: frontend:pluginconfig
           /role:
@@ -126,6 +128,8 @@ definitions:
             field: content
             plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
             wicket.id: ${cluster.id}.left.item
+            caption: ''
+            hint: ''
             /cluster.options:
               jcr:primaryType: frontend:pluginconfig
           /photo:

@@ -1,0 +1,9 @@
+/hst:hst/hst:configurations/atLaw/hst:workspace/hst:containers/barristerslist/main/contentlist:
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsListComponent
+  hst:label: Content list
+  hst:parameternames: [documentTypes, sortField, sortOrder, includeSubtypes, showPagination,
+    path, pageSize]
+  hst:parametervalues: ['', '', desc, 'off', 'on', barristers, '10']
+  hst:template: barrister-summary
+  hst:xtype: hst.item
