@@ -4,10 +4,13 @@
 <'hippostdpubwf'='http://www.onehippo.org/jcr/hippostdpubwf/nt/1.0'>
 <'hippotranslation'='http://www.onehippo.org/jcr/hippotranslation/nt/1.0'>
 
-[atLaw:account] > hippo:compound, hippostd:relaxed
+[atLaw:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
   orderable
 
-[atLaw:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
+[atLaw:Barrister] > atLaw:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[atLaw:account] > hippo:compound, hippostd:relaxed
   orderable
 
 [atLaw:author] > atLaw:basedocument, hippostd:relaxed, hippotranslation:translated

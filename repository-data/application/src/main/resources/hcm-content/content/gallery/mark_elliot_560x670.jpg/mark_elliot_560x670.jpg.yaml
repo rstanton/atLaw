@@ -1,0 +1,23 @@
+/content/gallery/mark_elliot_560x670.jpg/mark_elliot_560x670.jpg:
+  jcr:primaryType: hippogallery:imageset
+  hippo:availability: [live, preview]
+  hippogallery:filename: Mark_Elliot_560x670.jpg
+  /hippogallery:thumbnail:
+    jcr:primaryType: hippogallery:image
+    hippo:filename: Mark_Elliot_560x670.jpg
+    hippogallery:height: 60
+    hippogallery:width: 50
+    jcr:data:
+      type: binary
+      resource: /content/gallery/mark_elliot_560x670.jpg/mark_elliot_560x670.jpg/thumbnail/data.jpg
+    jcr:lastModified: 2018-05-16T19:09:53.199+01:00
+    jcr:mimeType: image/jpeg
+  /hippogallery:original:
+    jcr:primaryType: hippogallery:image
+    hippogallery:height: 670
+    hippogallery:width: 560
+    jcr:data:
+      type: binary
+      resource: /content/gallery/mark_elliot_560x670.jpg/mark_elliot_560x670.jpg/original/data.jpg
+    jcr:lastModified: 2018-05-16T19:09:53.199+01:00
+    jcr:mimeType: image/jpeg

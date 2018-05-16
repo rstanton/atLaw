@@ -1,0 +1,5 @@
+/content/gallery/mark_elliot_560x670.jpg:
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+  jcr:uuid: 9a7c38f8-182e-4d57-892f-3611eedfc303
+  hippo:name: Mark_Elliot_560x670.jpg
