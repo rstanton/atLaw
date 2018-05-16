@@ -1,0 +1,5 @@
+/hst:hst/hst:configurations/atLaw/hst:workspace/hst:containers/barristerdetailpage/main/content:
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsContentComponent
+  hst:template: barrister-detail
+  hst:xtype: hst.item

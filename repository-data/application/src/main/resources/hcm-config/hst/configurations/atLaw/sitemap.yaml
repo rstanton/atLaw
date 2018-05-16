@@ -71,8 +71,5 @@ definitions:
         hst:relativecontentpath: barristers
         /_any_:
           jcr:primaryType: hst:sitemapitem
-          hst:componentconfigurationid: hst:pages/barristerlist
+          hst:componentconfigurationid: hst:pages/barristerpage
           hst:relativecontentpath: ${parent}/${1}
-        /_any_.html:
-          jcr:primaryType: hst:sitemapitem
-          hst:componentconfigurationid: ''

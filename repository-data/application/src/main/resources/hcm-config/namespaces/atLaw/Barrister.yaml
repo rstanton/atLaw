@@ -11,7 +11,7 @@ definitions:
         /hipposysedit:nodetype:
           jcr:primaryType: hipposysedit:nodetype
           jcr:mixinTypes: ['mix:referenceable', 'hipposysedit:remodel']
-          jcr:uuid: b3bcfe40-a221-4a30-8acd-518f83aca23d
+          jcr:uuid: 27c256b3-d997-4f1a-b7d8-a001e616749e
           hipposysedit:node: true
           hipposysedit:supertype: ['atLaw:basedocument', 'hippostd:relaxed', 'hippotranslation:translated']
           hipposysedit:uri: http://www.onehippo.org/atLaw/nt/1.0
@@ -24,15 +24,6 @@ definitions:
             hipposysedit:primary: false
             hipposysedit:type: String
             hipposysedit:validators: [non-empty, required]
-          /calldate:
-            jcr:primaryType: hipposysedit:field
-            hipposysedit:mandatory: false
-            hipposysedit:multiple: false
-            hipposysedit:ordered: false
-            hipposysedit:path: atLaw:calldate
-            hipposysedit:primary: false
-            hipposysedit:type: Date
-            hipposysedit:validators: [required]
           /imagelink:
             jcr:primaryType: hipposysedit:field
             hipposysedit:mandatory: false
@@ -63,7 +54,7 @@ definitions:
         /hipposysedit:nodetype[2]:
           jcr:primaryType: hipposysedit:nodetype
           jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 2cc6d45f-fc9d-4e27-9ce3-721ecc4c332e
+          jcr:uuid: 593c41fe-abfe-4912-9e30-b4c2fe508727
           hipposysedit:node: true
           hipposysedit:supertype: ['atLaw:basedocument', 'hippostd:relaxed', 'hippotranslation:translated']
           /name:
@@ -75,15 +66,6 @@ definitions:
             hipposysedit:primary: false
             hipposysedit:type: String
             hipposysedit:validators: [non-empty, required]
-          /calldate:
-            jcr:primaryType: hipposysedit:field
-            hipposysedit:mandatory: false
-            hipposysedit:multiple: false
-            hipposysedit:ordered: false
-            hipposysedit:path: atLaw:calldate
-            hipposysedit:primary: false
-            hipposysedit:type: Date
-            hipposysedit:validators: [required]
           /imagelink:
             jcr:primaryType: hipposysedit:field
             hipposysedit:mandatory: false
@@ -111,6 +93,14 @@ definitions:
             hipposysedit:primary: false
             hipposysedit:type: Html
             hipposysedit:validators: [non-empty, required]
+          /date:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: atLaw:date
+            hipposysedit:primary: false
+            hipposysedit:type: Date
       /hipposysedit:prototypes:
         jcr:primaryType: hipposysedit:prototypeset
         /hipposysedit:prototype:
@@ -123,8 +113,7 @@ definitions:
           hippotranslation:locale: document-type-locale
           jcr:mixinTypes: ['mix:referenceable']
           atLaw:name: ''
-          atLaw:calldate: 0001-01-01T12:00:00Z
-          jcr:uuid: 1e1a67be-7454-4fd0-85e5-a453d862cf38
+          jcr:uuid: a3266bd4-1d28-41e5-ae64-665ad9bb030f
           hippostdpubwf:lastModificationDate: 2018-05-04T17:49:05.612+01:00
           hippostdpubwf:creationDate: 2018-05-04T17:49:05.613+01:00
           atLaw:intro: ''
@@ -137,10 +126,8 @@ definitions:
             hippo:values: []
         /hipposysedit:prototype[2]:
           jcr:primaryType: nt:unstructured
-          jcr:mixinTypes: ['hippostd:publishableSummary', 'hippostd:relaxed', 'hippostdpubwf:document',
-            'hippotranslation:translated', 'mix:referenceable']
-          jcr:uuid: 1477624f-0307-4913-af09-d2a370cf2eaa
-          atLaw:calldate: 0001-01-01T12:00:00Z
+          jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable', 'hippostd:relaxed']
+          jcr:uuid: 48fdf611-28bc-41bd-9a08-e9666f61275a
           atLaw:intro: ''
           atLaw:name: ''
           atLaw:profile: ''
@@ -152,6 +139,7 @@ definitions:
           hippostdpubwf:lastModifiedBy: ''
           hippotranslation:id: document-type-locale-id
           hippotranslation:locale: document-type-locale
+          atLaw:date: 0001-01-01T12:00:00Z
           /atLaw:imagelink:
             jcr:primaryType: hippogallerypicker:imagelink
             hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
@@ -173,15 +161,6 @@ definitions:
             jcr:primaryType: frontend:plugin
             caption: Barrister's Name
             field: name
-            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
-            wicket.id: ${cluster.id}.field
-            /cluster.options:
-              jcr:primaryType: frontend:pluginconfig
-          /calldate:
-            jcr:primaryType: frontend:plugin
-            caption: Call Date
-            field: calldate
-            hint: ''
             plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
             wicket.id: ${cluster.id}.field
             /cluster.options:
@@ -211,5 +190,14 @@ definitions:
             hint: ''
             plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
             wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /date:
+            jcr:primaryType: frontend:plugin
+            caption: Date
+            field: date
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.field
+            hint: ''
             /cluster.options:
               jcr:primaryType: frontend:pluginconfig

@@ -93,3 +93,10 @@ definitions:
           jcr:primaryType: hst:containercomponent
           hst:xtype: hst.vbox
           hst:label: Barristers List
+      /barristerdetailpage:
+        jcr:primaryType: hst:containercomponentfolder
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hst:label: Barrister Detail Page
+          hst:xtype: hst.vbox

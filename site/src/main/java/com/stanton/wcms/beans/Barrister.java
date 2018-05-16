@@ -14,11 +14,6 @@ public class Barrister extends BaseDocument {
         return getProperty("atLaw:name");
     }
 
-    @HippoEssentialsGenerated(internalName = "atLaw:calldate")
-    public Calendar getCalldate() {
-        return getProperty("atLaw:calldate");
-    }
-
     @HippoEssentialsGenerated(internalName = "atLaw:intro")
     public String getIntro() {
         return getProperty("atLaw:intro");

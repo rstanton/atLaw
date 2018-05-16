@@ -35,3 +35,6 @@ definitions:
       /barrister-summary:
         jcr:primaryType: hst:template
         hst:renderpath: webfile:/freemarker/components/people/people-summary.ftl
+      /barrister-detail:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/components/people/people-detail.ftl
