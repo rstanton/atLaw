@@ -1,20 +1,20 @@
 <#include "../../include/imports.ftl">
 
-<section id="barrister-detail" class="wrapper">
+<section id="main" class="wrapper">
 <#if document??>
 	<@hst.link var="img" hippobean=document.imagelink/>
-	
+	<#assign profile=document.profile/>
 	<div class="inner">
 		<header class="align-center">
 			<h2>${document.name}</h2>
-			<p>${document.calldate}</p>
-			<p><@fmt.formatDate value=document.calldate type="Date" pattern="YYYY-MM-dd" /></p>
+			<p>Some Text</p>			
 		</header>
 		<p>
-			<span class="image left round">
-				<img src="${img}" alt="${document.name}">
+			<span class="image left">
+				<img src="${img}" alt="${document.name}"/>
 			</span>
-		<p>${document.profile}</p>
+			<@hst.html hippohtml=document.cv/>
+		</p>
 	</div>
 </#if>
 </section>

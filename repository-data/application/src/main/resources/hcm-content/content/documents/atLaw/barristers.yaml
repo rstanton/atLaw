@@ -5,189 +5,119 @@
   hippostd:foldertype: [new-translated-folder, new-document]
   hippotranslation:id: dbb53733-70fc-45c6-8d84-eb4a0894b97d
   hippotranslation:locale: en
-  /rachael-goodall:
+  /goodall:
     jcr:primaryType: hippo:handle
-    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
-    jcr:uuid: 72e7e800-3e1e-4b26-be62-bebacd13d783
-    hippo:name: Rachael Goodall
-    /rachael-goodall[1]:
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 59ff26e5-0b47-43f9-8078-7265795b173b
+    /goodall[1]:
       jcr:primaryType: atLaw:Barrister
       jcr:mixinTypes: ['mix:referenceable']
-      jcr:uuid: e42bdeb5-c5de-4b76-9f70-7042f75e813f
-      atLaw:calldate: 2001-09-01T00:00:00+01:00
-      atLaw:intro: Rachael Goodall practises exclusively in the field of family law,
-        with a particular emphasis on cases involving financial provision after divorce,
-        dissolution or separation.  She is also instructed in private law children
-        cases.
+      jcr:uuid: 76346fa6-4fe9-45bb-951f-000046dafc70
+      atLaw:calldate: 2018-05-17T00:00:00+01:00
+      atLaw:intro: One Two Three
       atLaw:name: Rachael Goodall
       atLaw:profile: |-
-        <p>Rachael Goodall&nbsp;practises exclusively in the field of family law, with a particular emphasis on cases involving financial provision after divorce, dissolution or separation.  She is also instructed in private law children cases.</p>
+        <p>Rachael Goodall practises exclusively in the field of family law, with a particular emphasis on cases involving financial provision after divorce, dissolution or separation. &nbsp;She is also instructed in private law children cases.Rachael is one of the few barristers who is consistently recommended in both of the leading legal directories, Chambers and Partners and the Legal 500.The qualities possessed by Rachael include being "robust", "tenacious" and having “superior attention to detail”. &nbsp;Rachael is also reported as having “great empathy with clients” and is "extremely good at helping clients feel supported and getting their voice heard".</p>
 
-        <p>Rachael is one of the few barristers who is&nbsp;consistently&nbsp;recommended in both of&nbsp;the leading legal directories, Chambers and Partners and the Legal 500.</p>
+        <p>Rachael lives on the outskirts of the New Forest and is married with two young children. &nbsp;She enjoys running (having completed 4 marathons), cooking and the outdoors.</p>
 
-        <p>The qualities possessed by Rachael include being "robust", "tenacious" and&nbsp;having “superior attention to detail”.&nbsp; Rachael is also reported as having “great empathy with clients” and is "extremely good at helping clients feel supported and getting their voice heard".</p>
-
-        <p>Rachael lives on the outskirts of the New Forest and is married with two young children.&nbsp; She enjoys running (having completed 4 marathons), cooking and the outdoors.</p>
+        <p>test</p>
       hippo:availability: []
       hippostd:state: draft
       hippostdpubwf:createdBy: admin
-      hippostdpubwf:creationDate: 2018-05-04T17:53:06.790+01:00
-      hippostdpubwf:lastModificationDate: 2018-05-16T20:32:16.480+01:00
+      hippostdpubwf:creationDate: 2018-05-17T21:29:51.128+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-17T22:06:40.481+01:00
       hippostdpubwf:lastModifiedBy: admin
-      hippotranslation:id: 29cafd9f-90cc-44de-8705-256f51a75593
+      hippotranslation:id: fbb14922-54ce-49fe-b5ea-0a935dcdd3d3
       hippotranslation:locale: en
-      /atLaw:socialaccounts:
-        jcr:primaryType: atLaw:account
-        atLaw:link: htsaf
-        atLaw:type: linkedin
       /atLaw:imagelink:
         jcr:primaryType: hippogallerypicker:imagelink
         hippo:docbase: d8b7e216-bd60-4484-ab45-ed87b5507af4
         hippo:facets: []
         hippo:modes: []
         hippo:values: []
-    /rachael-goodall[2]:
+      /atLaw:cv:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>Rachael Goodall practises exclusively in the field of family law, with a particular emphasis on cases involving financial provision after divorce, dissolution or separation. &nbsp;She is also instructed in private law children cases.<br />
+          <br />
+          Rachael is one of the few barristers who is consistently recommended in both of the leading legal directories, Chambers and Partners and the Legal 500.<br />
+          <br />
+          The qualities possessed by Rachael include being "robust", "tenacious" and having “superior attention to detail”. &nbsp;Rachael is also reported as having “great empathy with clients” and is "extremely good at helping clients feel supported and getting their voice heard".<br />
+          <br />
+          Rachael lives on the outskirts of the New Forest and is married with two young children. &nbsp;She enjoys running (having completed 4 marathons), cooking and the outdoors.</p>
+    /goodall[2]:
       jcr:primaryType: atLaw:Barrister
       jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
-      jcr:uuid: 27b749bb-0015-4db4-9325-58a571836397
-      atLaw:calldate: 2001-09-01T00:00:00+01:00
-      atLaw:intro: Rachael Goodall practises exclusively in the field of family law,
-        with a particular emphasis on cases involving financial provision after divorce,
-        dissolution or separation.  She is also instructed in private law children
-        cases.
+      jcr:uuid: f2a84ebe-06c4-462e-9a4e-6dfce0c76831
+      atLaw:calldate: 2018-05-17T00:00:00+01:00
+      atLaw:intro: One Two Three
       atLaw:name: Rachael Goodall
       atLaw:profile: |-
-        <p>Rachael Goodall&nbsp;practises exclusively in the field of family law, with a particular emphasis on cases involving financial provision after divorce, dissolution or separation.  She is also instructed in private law children cases.</p>
+        <p>Rachael Goodall practises exclusively in the field of family law, with a particular emphasis on cases involving financial provision after divorce, dissolution or separation. &nbsp;She is also instructed in private law children cases.Rachael is one of the few barristers who is consistently recommended in both of the leading legal directories, Chambers and Partners and the Legal 500.The qualities possessed by Rachael include being "robust", "tenacious" and having “superior attention to detail”. &nbsp;Rachael is also reported as having “great empathy with clients” and is "extremely good at helping clients feel supported and getting their voice heard".</p>
 
-        <p>Rachael is one of the few barristers who is&nbsp;consistently&nbsp;recommended in both of&nbsp;the leading legal directories, Chambers and Partners and the Legal 500.</p>
+        <p>Rachael lives on the outskirts of the New Forest and is married with two young children. &nbsp;She enjoys running (having completed 4 marathons), cooking and the outdoors.</p>
 
-        <p>The qualities possessed by Rachael include being "robust", "tenacious" and&nbsp;having “superior attention to detail”.&nbsp; Rachael is also reported as having “great empathy with clients” and is "extremely good at helping clients feel supported and getting their voice heard".</p>
-
-        <p>Rachael lives on the outskirts of the New Forest and is married with two young children.&nbsp; She enjoys running (having completed 4 marathons), cooking and the outdoors.</p>
+        <p>test</p>
       hippo:availability: [preview]
       hippostd:state: unpublished
       hippostdpubwf:createdBy: admin
-      hippostdpubwf:creationDate: 2018-05-04T17:53:06.790+01:00
-      hippostdpubwf:lastModificationDate: 2018-05-16T19:01:54.648+01:00
+      hippostdpubwf:creationDate: 2018-05-17T21:29:51.128+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-17T22:07:05.443+01:00
       hippostdpubwf:lastModifiedBy: admin
-      hippotranslation:id: 29cafd9f-90cc-44de-8705-256f51a75593
+      hippotranslation:id: fbb14922-54ce-49fe-b5ea-0a935dcdd3d3
       hippotranslation:locale: en
-      /atLaw:socialaccounts:
-        jcr:primaryType: atLaw:account
-        atLaw:link: htsaf
-        atLaw:type: linkedin
       /atLaw:imagelink:
         jcr:primaryType: hippogallerypicker:imagelink
         hippo:docbase: d8b7e216-bd60-4484-ab45-ed87b5507af4
         hippo:facets: []
         hippo:modes: []
         hippo:values: []
-    /rachael-goodall[3]:
+      /atLaw:cv:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>Rachael Goodall practises exclusively in the field of family law, with a particular emphasis on cases involving financial provision after divorce, dissolution or separation. &nbsp;She is also instructed in private law children cases.<br />
+          <br />
+          Rachael is one of the few barristers who is consistently recommended in both of the leading legal directories, Chambers and Partners and the Legal 500.<br />
+          <br />
+          The qualities possessed by Rachael include being "robust", "tenacious" and having “superior attention to detail”. &nbsp;Rachael is also reported as having “great empathy with clients” and is "extremely good at helping clients feel supported and getting their voice heard".<br />
+          <br />
+          Rachael lives on the outskirts of the New Forest and is married with two young children. &nbsp;She enjoys running (having completed 4 marathons), cooking and the outdoors.</p>
+    /goodall[3]:
       jcr:primaryType: atLaw:Barrister
       jcr:mixinTypes: ['mix:referenceable']
-      jcr:uuid: 48f59333-31ed-4c95-b095-6f6c4f0135b3
-      atLaw:calldate: 2001-09-01T00:00:00+01:00
-      atLaw:intro: Rachael Goodall practises exclusively in the field of family law,
-        with a particular emphasis on cases involving financial provision after divorce,
-        dissolution or separation.  She is also instructed in private law children
-        cases.
+      jcr:uuid: 184d25d5-7a28-4c11-96b1-04029540105f
+      atLaw:calldate: 2018-05-17T00:00:00+01:00
+      atLaw:intro: One Two Three
       atLaw:name: Rachael Goodall
       atLaw:profile: |-
-        <p>Rachael Goodall&nbsp;practises exclusively in the field of family law, with a particular emphasis on cases involving financial provision after divorce, dissolution or separation.  She is also instructed in private law children cases.</p>
+        <p>Rachael Goodall practises exclusively in the field of family law, with a particular emphasis on cases involving financial provision after divorce, dissolution or separation. &nbsp;She is also instructed in private law children cases.Rachael is one of the few barristers who is consistently recommended in both of the leading legal directories, Chambers and Partners and the Legal 500.The qualities possessed by Rachael include being "robust", "tenacious" and having “superior attention to detail”. &nbsp;Rachael is also reported as having “great empathy with clients” and is "extremely good at helping clients feel supported and getting their voice heard".</p>
 
-        <p>Rachael is one of the few barristers who is&nbsp;consistently&nbsp;recommended in both of&nbsp;the leading legal directories, Chambers and Partners and the Legal 500.</p>
+        <p>Rachael lives on the outskirts of the New Forest and is married with two young children. &nbsp;She enjoys running (having completed 4 marathons), cooking and the outdoors.</p>
 
-        <p>The qualities possessed by Rachael include being "robust", "tenacious" and&nbsp;having “superior attention to detail”.&nbsp; Rachael is also reported as having “great empathy with clients” and is "extremely good at helping clients feel supported and getting their voice heard".</p>
-
-        <p>Rachael lives on the outskirts of the New Forest and is married with two young children.&nbsp; She enjoys running (having completed 4 marathons), cooking and the outdoors.</p>
+        <p>test</p>
       hippo:availability: [live]
       hippostd:state: published
       hippostdpubwf:createdBy: admin
-      hippostdpubwf:creationDate: 2018-05-04T17:53:06.790+01:00
-      hippostdpubwf:lastModificationDate: 2018-05-16T19:01:54.648+01:00
+      hippostdpubwf:creationDate: 2018-05-17T21:29:51.128+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-17T22:07:05.443+01:00
       hippostdpubwf:lastModifiedBy: admin
-      hippostdpubwf:publicationDate: 2018-05-16T19:02:00.792+01:00
-      hippotranslation:id: 29cafd9f-90cc-44de-8705-256f51a75593
+      hippostdpubwf:publicationDate: 2018-05-17T22:07:07.683+01:00
+      hippotranslation:id: fbb14922-54ce-49fe-b5ea-0a935dcdd3d3
       hippotranslation:locale: en
-      /atLaw:socialaccounts:
-        jcr:primaryType: atLaw:account
-        atLaw:link: htsaf
-        atLaw:type: linkedin
       /atLaw:imagelink:
         jcr:primaryType: hippogallerypicker:imagelink
         hippo:docbase: d8b7e216-bd60-4484-ab45-ed87b5507af4
         hippo:facets: []
         hippo:modes: []
         hippo:values: []
-  /mark-elliott:
-    jcr:primaryType: hippo:handle
-    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
-    jcr:uuid: 0fa6d2bc-12b2-4338-8be0-8f7e375eb780
-    hippo:name: Mark Elliott
-    /mark-elliott[1]:
-      jcr:primaryType: atLaw:Barrister
-      jcr:mixinTypes: ['mix:referenceable']
-      jcr:uuid: 3ecb0bb1-bcf3-4798-be4e-3b0d35a0047c
-      atLaw:calldate: 2018-05-16T19:10:00+01:00
-      atLaw:intro: Blah Blah
-      atLaw:name: Mark Elliot
-      atLaw:profile: <p>blaha blashshv</p>
-      hippo:availability: []
-      hippostd:state: draft
-      hippostdpubwf:createdBy: admin
-      hippostdpubwf:creationDate: 2018-05-16T19:09:43.259+01:00
-      hippostdpubwf:lastModificationDate: 2018-05-16T19:18:51.913+01:00
-      hippostdpubwf:lastModifiedBy: admin
-      hippotranslation:id: 2a57dcf6-d375-4187-b2bb-8d94d6f2673d
-      hippotranslation:locale: en
-      /atLaw:imagelink:
-        jcr:primaryType: hippogallerypicker:imagelink
-        hippo:docbase: 6b83ae1c-4c4c-47b5-8f5b-ff097897d101
-        hippo:facets: []
-        hippo:modes: []
-        hippo:values: []
-    /mark-elliott[2]:
-      jcr:primaryType: atLaw:Barrister
-      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
-      jcr:uuid: b813b1bc-1963-462c-98e0-65ae85eac0a9
-      atLaw:calldate: 2018-05-16T19:10:00+01:00
-      atLaw:intro: Blah Blah
-      atLaw:name: Mark Elliot
-      atLaw:profile: <p>blaha blashshv</p>
-      hippo:availability: [preview]
-      hippostd:state: unpublished
-      hippostdpubwf:createdBy: admin
-      hippostdpubwf:creationDate: 2018-05-16T19:09:43.259+01:00
-      hippostdpubwf:lastModificationDate: 2018-05-16T19:10:28.299+01:00
-      hippostdpubwf:lastModifiedBy: admin
-      hippotranslation:id: 2a57dcf6-d375-4187-b2bb-8d94d6f2673d
-      hippotranslation:locale: en
-      /atLaw:imagelink:
-        jcr:primaryType: hippogallerypicker:imagelink
-        hippo:docbase: 6b83ae1c-4c4c-47b5-8f5b-ff097897d101
-        hippo:facets: []
-        hippo:modes: []
-        hippo:values: []
-    /mark-elliott[3]:
-      jcr:primaryType: atLaw:Barrister
-      jcr:mixinTypes: ['mix:referenceable']
-      jcr:uuid: 25d01d16-9331-4990-989e-bbdfde0bc68f
-      atLaw:calldate: 2018-05-16T19:10:00+01:00
-      atLaw:intro: Blah Blah
-      atLaw:name: Mark Elliot
-      atLaw:profile: <p>blaha blashshv</p>
-      hippo:availability: [live]
-      hippostd:state: published
-      hippostdpubwf:createdBy: admin
-      hippostdpubwf:creationDate: 2018-05-16T19:09:43.259+01:00
-      hippostdpubwf:lastModificationDate: 2018-05-16T19:10:28.299+01:00
-      hippostdpubwf:lastModifiedBy: admin
-      hippostdpubwf:publicationDate: 2018-05-16T19:10:33.489+01:00
-      hippotranslation:id: 2a57dcf6-d375-4187-b2bb-8d94d6f2673d
-      hippotranslation:locale: en
-      /atLaw:imagelink:
-        jcr:primaryType: hippogallerypicker:imagelink
-        hippo:docbase: 6b83ae1c-4c4c-47b5-8f5b-ff097897d101
-        hippo:facets: []
-        hippo:modes: []
-        hippo:values: []
+      /atLaw:cv:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>Rachael Goodall practises exclusively in the field of family law, with a particular emphasis on cases involving financial provision after divorce, dissolution or separation. &nbsp;She is also instructed in private law children cases.<br />
+          <br />
+          Rachael is one of the few barristers who is consistently recommended in both of the leading legal directories, Chambers and Partners and the Legal 500.<br />
+          <br />
+          The qualities possessed by Rachael include being "robust", "tenacious" and having “superior attention to detail”. &nbsp;Rachael is also reported as having “great empathy with clients” and is "extremely good at helping clients feel supported and getting their voice heard".<br />
+          <br />
+          Rachael lives on the outskirts of the New Forest and is married with two young children. &nbsp;She enjoys running (having completed 4 marathons), cooking and the outdoors.</p>

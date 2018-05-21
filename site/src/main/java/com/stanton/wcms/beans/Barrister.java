@@ -2,9 +2,9 @@ package com.stanton.wcms.beans;
 
 import org.onehippo.cms7.essentials.dashboard.annotations.HippoEssentialsGenerated;
 import org.hippoecm.hst.content.beans.Node;
-import java.util.Calendar;
-import com.stanton.wcms.beans.Account;
 import org.hippoecm.hst.content.beans.standard.HippoGalleryImageSet;
+import java.util.Calendar;
+import org.hippoecm.hst.content.beans.standard.HippoHtml;
 
 @HippoEssentialsGenerated(internalName = "atLaw:Barrister")
 @Node(jcrType = "atLaw:Barrister")
@@ -27,5 +27,15 @@ public class Barrister extends BaseDocument {
     @HippoEssentialsGenerated(internalName = "atLaw:imagelink")
     public HippoGalleryImageSet getImagelink() {
         return getLinkedBean("atLaw:imagelink", HippoGalleryImageSet.class);
+    }
+
+    @HippoEssentialsGenerated(internalName = "atLaw:calldate")
+    public Calendar getCalldate() {
+        return getProperty("atLaw:calldate");
+    }
+
+    @HippoEssentialsGenerated(internalName = "atLaw:cv")
+    public HippoHtml getCv() {
+        return getHippoHtml("atLaw:cv");
     }
 }

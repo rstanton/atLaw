@@ -1,4 +1,0 @@
-/hst:hst/hst:configurations/atLaw/hst:workspace/hst:sitemenus/main/content:
-  .meta:order-before: blog
-  jcr:primaryType: hst:sitemenuitem
-  hst:referencesitemapitem: content

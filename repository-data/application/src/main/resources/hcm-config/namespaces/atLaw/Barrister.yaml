@@ -11,7 +11,7 @@ definitions:
         /hipposysedit:nodetype:
           jcr:primaryType: hipposysedit:nodetype
           jcr:mixinTypes: ['mix:referenceable', 'hipposysedit:remodel']
-          jcr:uuid: 27c256b3-d997-4f1a-b7d8-a001e616749e
+          jcr:uuid: 696a2fbf-dd51-4a53-86cd-364c652035e6
           hipposysedit:node: true
           hipposysedit:supertype: ['atLaw:basedocument', 'hippostd:relaxed', 'hippotranslation:translated']
           hipposysedit:uri: http://www.onehippo.org/atLaw/nt/1.0
@@ -51,56 +51,24 @@ definitions:
             hipposysedit:primary: false
             hipposysedit:type: Html
             hipposysedit:validators: [non-empty, required]
-        /hipposysedit:nodetype[2]:
-          jcr:primaryType: hipposysedit:nodetype
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 593c41fe-abfe-4912-9e30-b4c2fe508727
-          hipposysedit:node: true
-          hipposysedit:supertype: ['atLaw:basedocument', 'hippostd:relaxed', 'hippotranslation:translated']
-          /name:
+          /calldate:
             jcr:primaryType: hipposysedit:field
             hipposysedit:mandatory: false
             hipposysedit:multiple: false
             hipposysedit:ordered: false
-            hipposysedit:path: atLaw:name
+            hipposysedit:path: atLaw:calldate
             hipposysedit:primary: false
-            hipposysedit:type: String
-            hipposysedit:validators: [non-empty, required]
-          /imagelink:
-            jcr:primaryType: hipposysedit:field
-            hipposysedit:mandatory: false
-            hipposysedit:multiple: false
-            hipposysedit:ordered: false
-            hipposysedit:path: atLaw:imagelink
-            hipposysedit:primary: false
-            hipposysedit:type: hippogallerypicker:imagelink
+            hipposysedit:type: CalendarDate
             hipposysedit:validators: [required]
-          /intro:
+          /cv:
             jcr:primaryType: hipposysedit:field
             hipposysedit:mandatory: false
             hipposysedit:multiple: false
             hipposysedit:ordered: false
-            hipposysedit:path: atLaw:intro
+            hipposysedit:path: atLaw:cv
             hipposysedit:primary: false
-            hipposysedit:type: Text
-            hipposysedit:validators: [non-empty, required]
-          /profile:
-            jcr:primaryType: hipposysedit:field
-            hipposysedit:mandatory: false
-            hipposysedit:multiple: false
-            hipposysedit:ordered: false
-            hipposysedit:path: atLaw:profile
-            hipposysedit:primary: false
-            hipposysedit:type: Html
-            hipposysedit:validators: [non-empty, required]
-          /date:
-            jcr:primaryType: hipposysedit:field
-            hipposysedit:mandatory: false
-            hipposysedit:multiple: false
-            hipposysedit:ordered: false
-            hipposysedit:path: atLaw:date
-            hipposysedit:primary: false
-            hipposysedit:type: Date
+            hipposysedit:type: hippostd:html
+            hipposysedit:validators: [required]
       /hipposysedit:prototypes:
         jcr:primaryType: hipposysedit:prototypeset
         /hipposysedit:prototype:
@@ -113,39 +81,21 @@ definitions:
           hippotranslation:locale: document-type-locale
           jcr:mixinTypes: ['mix:referenceable']
           atLaw:name: ''
-          jcr:uuid: a3266bd4-1d28-41e5-ae64-665ad9bb030f
+          jcr:uuid: a963a993-8b74-4d91-8b0a-1017017d075b
           hippostdpubwf:lastModificationDate: 2018-05-04T17:49:05.612+01:00
           hippostdpubwf:creationDate: 2018-05-04T17:49:05.613+01:00
           atLaw:intro: ''
           atLaw:profile: ''
+          atLaw:calldate: 0001-01-01T12:00:00Z
           /atLaw:imagelink:
             jcr:primaryType: hippogallerypicker:imagelink
             hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
-        /hipposysedit:prototype[2]:
-          jcr:primaryType: nt:unstructured
-          jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable', 'hippostd:relaxed']
-          jcr:uuid: 48fdf611-28bc-41bd-9a08-e9666f61275a
-          atLaw:intro: ''
-          atLaw:name: ''
-          atLaw:profile: ''
-          hippostd:holder: holder
-          hippostd:state: draft
-          hippostdpubwf:createdBy: ''
-          hippostdpubwf:creationDate: 2018-05-04T17:49:05.613+01:00
-          hippostdpubwf:lastModificationDate: 2018-05-04T17:49:05.612+01:00
-          hippostdpubwf:lastModifiedBy: ''
-          hippotranslation:id: document-type-locale-id
-          hippotranslation:locale: document-type-locale
-          atLaw:date: 0001-01-01T12:00:00Z
-          /atLaw:imagelink:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
+          /atLaw:cv:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
       /editor:templates:
         jcr:primaryType: editor:templateset
         /_default_:
@@ -192,12 +142,23 @@ definitions:
             wicket.id: ${cluster.id}.field
             /cluster.options:
               jcr:primaryType: frontend:pluginconfig
-          /date:
+              ckeditor.config.overlayed.json: "{ \t\"enterMode\": 1 }"
+          /calldate:
             jcr:primaryType: frontend:plugin
-            caption: Date
-            field: date
+            caption: Call Date
+            field: calldate
+            hint: ''
             plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
             wicket.id: ${cluster.id}.field
-            hint: ''
             /cluster.options:
               jcr:primaryType: frontend:pluginconfig
+          /cv:
+            jcr:primaryType: frontend:plugin
+            caption: CV
+            field: cv
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+              ckeditor.config.overlayed.json: "{ \t\"enterMode\": 1 }"
