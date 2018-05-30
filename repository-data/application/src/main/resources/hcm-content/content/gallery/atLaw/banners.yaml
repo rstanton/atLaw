@@ -1,0 +1,88 @@
+/content/gallery/atLaw/banners:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['mix:versionable']
+  jcr:uuid: 63a58866-7855-4ef6-8985-4545a3d9c6af
+  hippostd:foldertype: [new-atLaw-imageset-folder]
+  hippostd:gallerytype: ['atLaw:imageset']
+  /bundle.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: eea938c5-30e7-4cbb-ac9b-8878a1b61e33
+    /bundle.jpg:
+      jcr:primaryType: atLaw:imageset
+      hippo:availability: [live, preview]
+      hippogallery:description: ''
+      hippogallery:filename: bundle.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: bundle.jpg
+        hippogallery:height: 40
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/atLaw/banners/bundle.jpg/bundle.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2018-05-30T10:20:09.940+01:00
+        jcr:mimeType: image/jpeg
+      /atLaw:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 224
+        hippogallery:width: 335
+        jcr:data:
+          type: binary
+          resource: /content/gallery/atLaw/banners/bundle.jpg/bundle.jpg/small/small.jpg
+        jcr:lastModified: 2018-05-30T10:20:09.940+01:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 4016
+        hippogallery:width: 6016
+        jcr:data:
+          type: binary
+          resource: /content/gallery/atLaw/banners/bundle.jpg/bundle.jpg/original/original.jpg
+        jcr:lastModified: 2018-05-30T10:20:09.940+01:00
+        jcr:mimeType: image/jpeg
+      /atLaw:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 302
+        hippogallery:width: 452
+        jcr:data:
+          type: binary
+          resource: /content/gallery/atLaw/banners/bundle.jpg/bundle.jpg/large/large.jpg
+        jcr:lastModified: 2018-05-30T10:20:09.940+01:00
+        jcr:mimeType: image/jpeg
+      /atLaw:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 1070
+        jcr:data:
+          type: binary
+          resource: /content/gallery/atLaw/banners/bundle.jpg/bundle.jpg/banner/banner.jpg
+        jcr:lastModified: 2018-05-30T10:33:35.480+01:00
+        jcr:mimeType: image/jpeg
+      /atLaw:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 442
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/atLaw/banners/bundle.jpg/bundle.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2018-05-30T10:20:09.940+01:00
+        jcr:mimeType: image/jpeg
+      /atLaw:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 208
+        hippogallery:width: 313
+        jcr:data:
+          type: binary
+          resource: /content/gallery/atLaw/banners/bundle.jpg/bundle.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2018-05-30T10:20:09.940+01:00
+        jcr:mimeType: image/jpeg
+      /atLaw:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 155
+        hippogallery:width: 233
+        jcr:data:
+          type: binary
+          resource: /content/gallery/atLaw/banners/bundle.jpg/bundle.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2018-05-30T10:20:09.940+01:00
+        jcr:mimeType: image/jpeg

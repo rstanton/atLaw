@@ -1,10 +1,11 @@
 /content/gallery/atLaw/mark_elliot_560x670.jpg:
+  .meta:order-before: banners
   jcr:primaryType: hippo:handle
   jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
   jcr:uuid: 6b83ae1c-4c4c-47b5-8f5b-ff097897d101
   hippo:name: Mark_Elliot_560x670.jpg
   /mark_elliot_560x670.jpg:
-    jcr:primaryType: hippogallery:imageset
+    jcr:primaryType: atLaw:imageset
     hippo:availability: [live, preview]
     hippogallery:filename: Mark_Elliot_560x670.jpg
     /hippogallery:thumbnail:
@@ -14,7 +15,7 @@
       hippogallery:width: 50
       jcr:data:
         type: binary
-        resource: /content/gallery/atLaw/mark_elliot_560x670.jpg/Mark_Elliot_560x670_thumbnail.jpg
+        resource: /content/gallery/atLaw/mark_elliot_560x670.jpg/mark_elliot_560x670.jpg/thumbnail/thumbnail.jpg
       jcr:lastModified: 2018-05-16T19:10:02.959+01:00
       jcr:mimeType: image/jpeg
     /hippogallery:original:
@@ -23,6 +24,60 @@
       hippogallery:width: 560
       jcr:data:
         type: binary
-        resource: /content/gallery/atLaw/mark_elliot_560x670.jpg/Mark_Elliot_560x670_original.jpg
+        resource: /content/gallery/atLaw/mark_elliot_560x670.jpg/mark_elliot_560x670.jpg/original/original.jpg
       jcr:lastModified: 2018-05-16T19:10:02.959+01:00
+      jcr:mimeType: image/jpeg
+    /atLaw:small:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 224
+      hippogallery:width: 187
+      jcr:data:
+        type: binary
+        resource: /content/gallery/atLaw/mark_elliot_560x670.jpg/mark_elliot_560x670.jpg/small/small.jpg
+      jcr:lastModified: 2018-05-30T09:40:35.749+01:00
+      jcr:mimeType: image/jpeg
+    /atLaw:large:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 302
+      hippogallery:width: 252
+      jcr:data:
+        type: binary
+        resource: /content/gallery/atLaw/mark_elliot_560x670.jpg/mark_elliot_560x670.jpg/large/large.jpg
+      jcr:lastModified: 2018-05-30T09:40:35.809+01:00
+      jcr:mimeType: image/jpeg
+    /atLaw:smallsquare:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 233
+      hippogallery:width: 194
+      jcr:data:
+        type: binary
+        resource: /content/gallery/atLaw/mark_elliot_560x670.jpg/mark_elliot_560x670.jpg/smallsquare/smallsquare.jpg
+      jcr:lastModified: 2018-05-30T09:40:35.896+01:00
+      jcr:mimeType: image/jpeg
+    /atLaw:mediumsquare:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 313
+      hippogallery:width: 261
+      jcr:data:
+        type: binary
+        resource: /content/gallery/atLaw/mark_elliot_560x670.jpg/mark_elliot_560x670.jpg/mediumsquare/mediumsquare.jpg
+      jcr:lastModified: 2018-05-30T09:40:35.970+01:00
+      jcr:mimeType: image/jpeg
+    /atLaw:largesquare:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 663
+      hippogallery:width: 554
+      jcr:data:
+        type: binary
+        resource: /content/gallery/atLaw/mark_elliot_560x670.jpg/mark_elliot_560x670.jpg/largesquare/largesquare.jpg
+      jcr:lastModified: 2018-05-30T09:40:36.032+01:00
+      jcr:mimeType: image/jpeg
+    /atLaw:banner:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 250
+      hippogallery:width: 208
+      jcr:data:
+        type: binary
+        resource: /content/gallery/atLaw/mark_elliot_560x670.jpg/mark_elliot_560x670.jpg/banner/banner.jpg
+      jcr:lastModified: 2018-05-30T09:40:36.101+01:00
       jcr:mimeType: image/jpeg

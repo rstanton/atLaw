@@ -57,12 +57,85 @@ definitions:
             hipposysedit:path: atLaw:role
             hipposysedit:primary: false
             hipposysedit:type: String
+        /hipposysedit:nodetype[2]:
+          jcr:primaryType: hipposysedit:nodetype
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 53d77fe7-ef34-4673-89dd-925d8fd4ae65
+          hipposysedit:node: true
+          hipposysedit:supertype: ['atLaw:basedocument', 'hippostd:relaxed', 'hippotranslation:translated']
+          /fullname:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: atLaw:fullname
+            hipposysedit:primary: false
+            hipposysedit:type: String
+            hipposysedit:validators: [non-empty, required]
+          /content:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: atLaw:content
+            hipposysedit:primary: false
+            hipposysedit:type: hippostd:html
+            hipposysedit:validators: [required]
+          /photo:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: atLaw:image
+            hipposysedit:primary: false
+            hipposysedit:type: hippogallerypicker:imagelink
+          /accounts:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: true
+            hipposysedit:ordered: true
+            hipposysedit:path: atLaw:accounts
+            hipposysedit:primary: false
+            hipposysedit:type: atLaw:account
+          /role:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: atLaw:role
+            hipposysedit:primary: false
+            hipposysedit:type: String
       /hipposysedit:prototypes:
         jcr:primaryType: hipposysedit:prototypeset
         /hipposysedit:prototype:
           jcr:primaryType: atLaw:author
           jcr:mixinTypes: ['mix:referenceable']
           jcr:uuid: 9037adde-20b9-4d10-a22e-98dc4f020132
+          atLaw:fullname: ''
+          atLaw:role: ''
+          hippo:related___pathreference: []
+          hippostd:holder: holder
+          hippostd:state: draft
+          hippostdpubwf:createdBy: ''
+          hippostdpubwf:creationDate: 2014-02-05T15:46:00+01:00
+          hippostdpubwf:lastModificationDate: 2014-02-05T15:46:00+01:00
+          hippostdpubwf:lastModifiedBy: ''
+          hippotranslation:id: document-type-locale-id
+          hippotranslation:locale: document-type-locale
+          /atLaw:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /atLaw:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /hipposysedit:prototype[2]:
+          jcr:primaryType: nt:unstructured
+          jcr:mixinTypes: ['hippostd:publishableSummary', 'hippostd:relaxed', 'hippostdpubwf:document',
+            'hippotranslation:translated', 'mix:referenceable']
+          jcr:uuid: 8a35c4ec-d04b-4e71-871a-144d12b09218
           atLaw:fullname: ''
           atLaw:role: ''
           hippo:related___pathreference: []

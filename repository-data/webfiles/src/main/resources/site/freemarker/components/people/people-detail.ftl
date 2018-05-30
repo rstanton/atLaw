@@ -2,7 +2,7 @@
 
 <section id="main" class="wrapper">
 <#if document??>
-	<@hst.link var="img" hippobean=document.imagelink/>
+	<@hst.link var="img" hippobean=document.imagelink.mediumsquare/>
 	<#assign profile=document.profile/>
 	<div class="inner">
 		<header class="align-center">

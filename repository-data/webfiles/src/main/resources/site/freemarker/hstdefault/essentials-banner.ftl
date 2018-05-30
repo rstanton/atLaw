@@ -2,18 +2,17 @@
 
 <#-- @ftlvariable name="document" type="com.stanton.wcms.beans.Banner" -->
 <#if document??>
+<div class="row></div>
 <div>
-  <a href="<@hst.link hippobean=document.link />">
-    <figure style="position: relative">
-      <@hst.manageContent hippobean=document parameterName="document" rootPath="banners"/>
-      <img src="<@hst.link hippobean=document.image />" alt="${document.title?html}"/>
-      <figcaption style="position:absolute; top:20px; left:20px; z-index:100; color:white; background: rgba(51, 122, 183, 0.7); width:60%; padding:0 20px 20px 20px; text-shadow: 0 1px 2px rgba(0, 0, 0, .6);">
-        <#if document.title??>
-          <h3>${document.title?html}</h3>
-        </#if>
-        <@hst.html hippohtml=document.content/>
-      </figcaption>
-    </figure>
+	<a href="<@hst.link hippobean=document.link />">
+    	<figure style="position: relative">
+      		<@hst.manageContent hippobean=document parameterName="document" rootPath="banners"/>
+      		<img src="<@hst.link hippobean=document.image.banner />" alt="${document.title?html}"/>
+       		<#if document.title??>
+         		<h3>${document.title?html}</h3>
+       		</#if>
+	   		<@hst.html hippohtml=document.content/>
+   		</figure>
   </a>
 </div>
 <#elseif editMode>

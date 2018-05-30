@@ -3,5 +3,5 @@
   jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
   jcr:uuid: 452fe518-fccf-4e5c-8183-8cda9ddc6e67
   hippo:name: atLaw
-  hippostd:foldertype: [new-image-folder]
-  hippostd:gallerytype: ['hippogallery:imageset']
+  hippostd:foldertype: [new-atLaw-imageset-folder]
+  hippostd:gallerytype: ['atLaw:imageset']

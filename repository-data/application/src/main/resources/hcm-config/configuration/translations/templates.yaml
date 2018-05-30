@@ -13,6 +13,8 @@ definitions:
       new-blogauthor-folder: Neuer Blogger-Ordner
       new-blog-document: Neuer Blog-Post
       new-blogauthor-document: Neuer Blogger
+      new-atLaw-imageset-image: Neues Bild
+      new-atLaw-imageset-folder: Neuer Ordner
     /hippo:configuration/hippo:translations/hippo:templates/en:
       new-resource-bundle: new resource bundle
       new-untranslated-folder: new untranslated folder
@@ -26,6 +28,8 @@ definitions:
       new-blogauthor-folder: new blog author folder
       new-blog-document: new blog post
       new-blogauthor-document: new blog author
+      new-atLaw-imageset-image: New Image
+      new-atLaw-imageset-folder: new folder
     /hippo:configuration/hippo:translations/hippo:templates/fr:
       new-resource-bundle: nouveau resource bundle
       new-untranslated-folder: nouveau dossier non traduit
@@ -39,6 +43,8 @@ definitions:
       new-blogauthor-folder: nouveau dossier auteur blog
       new-blog-document: nouveau post blog
       new-blogauthor-document: nouvel auteur blog
+      new-atLaw-imageset-image: Nouvelle image
+      new-atLaw-imageset-folder: un nouveau dossier
     /hippo:configuration/hippo:translations/hippo:templates/nl:
       new-resource-bundle: nieuwe resource bundle
       new-untranslated-folder: nieuwe onvertaalde map
@@ -52,3 +58,11 @@ definitions:
       new-blogauthor-folder: nieuwe blog auteurs map
       new-blog-document: nieuwe blog post
       new-blogauthor-document: nieuwe blog auteur
+      new-atLaw-imageset-image: Nieuwe Afbeelding
+      new-atLaw-imageset-folder: nieuwe map
+    /hippo:configuration/hippo:translations/hippo:templates/es:
+      new-atLaw-imageset-folder: nueva carpeta
+      new-atLaw-imageset-image: Nueva imagen
+    /hippo:configuration/hippo:translations/hippo:templates/zh:
+      new-atLaw-imageset-folder: 新文件夹
+      new-atLaw-imageset-image: 新图片

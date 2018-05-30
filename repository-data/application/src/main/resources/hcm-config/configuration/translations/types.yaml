@@ -224,3 +224,5 @@ definitions:
         atLaw:link#hint: Externer Link zum Konto
         atLaw:type: Art
         jcr:name: Konto (Compound)
+    /hippo:configuration/hippo:translations/hippo:types/atLaw:imageset:
+      jcr:primaryType: hipposys:resourcebundles

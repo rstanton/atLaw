@@ -5,6 +5,7 @@ import org.hippoecm.hst.content.beans.Node;
 import org.hippoecm.hst.content.beans.standard.HippoGalleryImageSet;
 import java.util.Calendar;
 import org.hippoecm.hst.content.beans.standard.HippoHtml;
+import com.stanton.wcms.beans.Imageset;
 
 @HippoEssentialsGenerated(internalName = "atLaw:Barrister")
 @Node(jcrType = "atLaw:Barrister")
@@ -24,11 +25,6 @@ public class Barrister extends BaseDocument {
         return getProperty("atLaw:profile");
     }
 
-    @HippoEssentialsGenerated(internalName = "atLaw:imagelink")
-    public HippoGalleryImageSet getImagelink() {
-        return getLinkedBean("atLaw:imagelink", HippoGalleryImageSet.class);
-    }
-
     @HippoEssentialsGenerated(internalName = "atLaw:calldate")
     public Calendar getCalldate() {
         return getProperty("atLaw:calldate");
@@ -37,5 +33,10 @@ public class Barrister extends BaseDocument {
     @HippoEssentialsGenerated(internalName = "atLaw:cv")
     public HippoHtml getCv() {
         return getHippoHtml("atLaw:cv");
+    }
+
+    @HippoEssentialsGenerated(internalName = "atLaw:imagelink")
+    public Imageset getImagelink() {
+        return getLinkedBean("atLaw:imagelink", Imageset.class);
     }
 }

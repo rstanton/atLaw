@@ -9,7 +9,7 @@
 				<#list pageable.items as item>
 				    <@hst.manageContent hippobean=item/>
 					<@hst.link var="link" hippobean=item/>
-					<@hst.link var="img" hippobean=item.imagelink/>
+					<@hst.link var="img" hippobean=item.imagelink.largesquare/>
 					
 					
 					<div class="box fit person">

@@ -16,13 +16,13 @@
       hippostd:state: published
       hippostdpubwf:createdBy: admin
       hippostdpubwf:creationDate: 2014-08-21T22:10:13.443+02:00
-      hippostdpubwf:lastModificationDate: 2018-04-30T21:09:12.314+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-30T11:02:17.679+01:00
       hippostdpubwf:lastModifiedBy: admin
-      hippostdpubwf:publicationDate: 2018-04-30T21:09:14.832+01:00
-      resourcebundle:descriptions: [Text shown in the global page footer.]
+      hippostdpubwf:publicationDate: 2018-05-30T11:02:19.477+01:00
+      resourcebundle:descriptions: [Text shown in the global page footer., '']
       resourcebundle:id: essentials.global
-      resourcebundle:keys: [footer.text]
-      resourcebundle:messages: [©2018 Stanton & Co]
+      resourcebundle:keys: [footer.text, sitename]
+      resourcebundle:messages: [©2018 Stanton & Co, Goodall & Co]
     /global[2]:
       jcr:primaryType: resourcebundle:resourcebundle
       jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
@@ -31,12 +31,12 @@
       hippostd:state: unpublished
       hippostdpubwf:createdBy: admin
       hippostdpubwf:creationDate: 2014-08-21T22:10:13.443+02:00
-      hippostdpubwf:lastModificationDate: 2018-04-30T21:09:12.314+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-30T11:02:17.679+01:00
       hippostdpubwf:lastModifiedBy: admin
-      resourcebundle:descriptions: [Text shown in the global page footer.]
+      resourcebundle:descriptions: [Text shown in the global page footer., '']
       resourcebundle:id: essentials.global
-      resourcebundle:keys: [footer.text]
-      resourcebundle:messages: [©2018 Stanton & Co]
+      resourcebundle:keys: [footer.text, sitename]
+      resourcebundle:messages: [©2018 Stanton & Co, Goodall & Co]
     /global[3]:
       jcr:primaryType: resourcebundle:resourcebundle
       jcr:mixinTypes: ['mix:referenceable']
@@ -45,12 +45,12 @@
       hippostd:state: draft
       hippostdpubwf:createdBy: admin
       hippostdpubwf:creationDate: 2014-08-21T22:10:13.443+02:00
-      hippostdpubwf:lastModificationDate: 2018-04-30T21:08:55.780+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-30T11:01:44.536+01:00
       hippostdpubwf:lastModifiedBy: admin
-      resourcebundle:descriptions: [Text shown in the global page footer.]
+      resourcebundle:descriptions: [Text shown in the global page footer., '']
       resourcebundle:id: essentials.global
-      resourcebundle:keys: [footer.text]
-      resourcebundle:messages: [©2018 Stanton & Co]
+      resourcebundle:keys: [footer.text, sitename]
+      resourcebundle:messages: [©2018 Stanton & Co, Goodall & Co]
   /homepage:
     jcr:primaryType: hippo:handle
     jcr:mixinTypes: ['hippo:named', 'mix:referenceable']

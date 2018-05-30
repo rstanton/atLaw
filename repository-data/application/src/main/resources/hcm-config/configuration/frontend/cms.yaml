@@ -1,0 +1,52 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:frontend/cms/cms-services/galleryProcessorService/atLaw:small:
+      .meta:order-before: atLaw:large
+      jcr:primaryType: frontend:pluginconfig
+      height: 224
+      upscaling: false
+      width: 491
+      compression: 1.0
+      optimize: quality
+    /hippo:configuration/hippo:frontend/cms/cms-services/galleryProcessorService/atLaw:large:
+      .meta:order-before: atLaw:banner
+      jcr:primaryType: frontend:pluginconfig
+      height: 302
+      upscaling: false
+      width: 663
+      compression: 1.0
+      optimize: quality
+    /hippo:configuration/hippo:frontend/cms/cms-services/galleryProcessorService/atLaw:smallsquare:
+      .meta:order-before: atLaw:mediumsquare
+      jcr:primaryType: frontend:pluginconfig
+      height: 233
+      upscaling: false
+      width: 233
+      compression: 1.0
+      optimize: quality
+    /hippo:configuration/hippo:frontend/cms/cms-services/galleryProcessorService/atLaw:mediumsquare:
+      .meta:order-before: atLaw:largesquare
+      jcr:primaryType: frontend:pluginconfig
+      height: 313
+      upscaling: false
+      width: 313
+      compression: 1.0
+      optimize: quality
+    /hippo:configuration/hippo:frontend/cms/cms-services/galleryProcessorService/atLaw:largesquare:
+      .meta:order-before: atLaw:banner
+      jcr:primaryType: frontend:pluginconfig
+      height: 663
+      upscaling: false
+      width: 663
+      compression: 1.0
+      optimize: quality
+    /hippo:configuration/hippo:frontend/cms/cms-services/galleryProcessorService/atLaw:banner:
+      jcr:primaryType: frontend:pluginconfig
+      height: 250
+      upscaling: false
+      width: 1070
+      compression: 1.0
+      optimize: quality
+    /hippo:configuration/hippo:frontend/cms/cms-services/imageValidationService:
+      max.width: 6016
+      max.height: 4016

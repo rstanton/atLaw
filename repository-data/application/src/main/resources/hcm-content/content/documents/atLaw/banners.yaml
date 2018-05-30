@@ -19,7 +19,7 @@
       hippostd:state: draft
       hippostdpubwf:createdBy: admin
       hippostdpubwf:creationDate: 2018-05-01T18:41:48.966+01:00
-      hippostdpubwf:lastModificationDate: 2018-05-01T18:41:48.966+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-30T10:22:13.577+01:00
       hippostdpubwf:lastModifiedBy: admin
       hippotranslation:id: 0215a3c5-4201-4791-8bdc-bd3cc003f92b
       hippotranslation:locale: en
@@ -28,7 +28,7 @@
         hippostd:content: <p>Some Banner Content</p>
       /atLaw:image:
         jcr:primaryType: hippogallerypicker:imagelink
-        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:docbase: eea938c5-30e7-4cbb-ac9b-8878a1b61e33
         hippo:facets: []
         hippo:modes: []
         hippo:values: []
@@ -45,7 +45,7 @@
       hippostd:state: unpublished
       hippostdpubwf:createdBy: admin
       hippostdpubwf:creationDate: 2018-05-01T18:41:48.966+01:00
-      hippostdpubwf:lastModificationDate: 2018-05-01T18:42:04.753+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-30T10:22:28.748+01:00
       hippostdpubwf:lastModifiedBy: admin
       hippotranslation:id: 0215a3c5-4201-4791-8bdc-bd3cc003f92b
       hippotranslation:locale: en
@@ -54,7 +54,7 @@
         hippostd:content: <p>Some Banner Content</p>
       /atLaw:image:
         jcr:primaryType: hippogallerypicker:imagelink
-        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:docbase: eea938c5-30e7-4cbb-ac9b-8878a1b61e33
         hippo:facets: []
         hippo:modes: []
         hippo:values: []
@@ -71,9 +71,9 @@
       hippostd:state: published
       hippostdpubwf:createdBy: admin
       hippostdpubwf:creationDate: 2018-05-01T18:41:48.966+01:00
-      hippostdpubwf:lastModificationDate: 2018-05-01T18:42:04.753+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-30T10:22:28.748+01:00
       hippostdpubwf:lastModifiedBy: admin
-      hippostdpubwf:publicationDate: 2018-05-01T18:42:08.888+01:00
+      hippostdpubwf:publicationDate: 2018-05-30T10:22:34.663+01:00
       hippotranslation:id: 0215a3c5-4201-4791-8bdc-bd3cc003f92b
       hippotranslation:locale: en
       /atLaw:content:
@@ -81,7 +81,7 @@
         hippostd:content: <p>Some Banner Content</p>
       /atLaw:image:
         jcr:primaryType: hippogallerypicker:imagelink
-        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:docbase: eea938c5-30e7-4cbb-ac9b-8878a1b61e33
         hippo:facets: []
         hippo:modes: []
         hippo:values: []

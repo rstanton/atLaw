@@ -1,0 +1,5 @@
+definitions:
+  config:
+    /content/gallery:
+      hippostd:foldertype: [new-atLaw-imageset-folder]
+      hippostd:gallerytype: ['atLaw:imageset']
